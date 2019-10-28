@@ -1,0 +1,11 @@
+[ignore]
+.*/node_modules/*
+
+[include]
+
+[libs]
+
+[options]
+esproposal.optional_chaining=enable
+module.name_mapper='^@/\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+emoji=true

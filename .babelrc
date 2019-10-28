@@ -1,0 +1,17 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@": "./src"
+        }
+      }
+    ],
+    "@babel/plugin-proposal-optional-chaining",
+    "ramda",
+    "@babel/plugin-transform-flow-strip-types"
+  ]
+}
